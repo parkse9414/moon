@@ -6,6 +6,7 @@ function setup()
     img = loadImage("1Mercury.png");  
     img2 = loadImage("2Venus.png");
     img3 = loadImage("3earth.png");
+    img4 = loadImage("4moon.png")
 }
 
 function draw()
@@ -18,7 +19,7 @@ function draw()
 	// 수성
     var duration = 5000;
     var timing = (new Date()%duration)/duration;
-	image(img, 450 + Math.cos(timing*2*PI)*200 - 17, 450 + Math.sin(timing*2*PI)*200 - 17);
+	image(img, 450 + Math.cos(timing*2*PI)*200 - 18, 450 + Math.sin(timing*2*PI)*200 - 18);
 
 	// 금성
     var duration = 4000;
@@ -30,12 +31,11 @@ function draw()
     var timing = (new Date()%duration)/duration;
     image(img3, 450 + Math.cos(timing*2*PI)*350 - 32, 450 + Math.sin(timing*2*PI)*350 - 32);
 
-
     //달
-	fill(0);
-    ellipse(450 + Math.cos(timing*2*PI)*350 + Math.cos(timing*4*PI)*80,                       
-    450 + Math.sin(timing*2*PI)*350 + Math.sin(timing*4*PI)*80,
-    30, 30);  
+    var duration = 4500;
+    var timing = (new Date()%duration)/duration;
+    image(img4, 450 + Math.cos(timing*2*PI)*350 + Math.cos(timing*4*PI)*80 - 15, 
+    450 + Math.sin(timing*2*PI)*350 + Math.sin(timing*4*PI)*80 - 15)
 
 
 
