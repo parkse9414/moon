@@ -34,13 +34,13 @@ function draw()
     //지구
     var duration = 4500;
     var timing = (new Date()%duration)/duration;
-    image(img3, 900 + Math.cos(timing*2*PI)*350 - 32, 900 + Math.sin(timing*2*PI)*350 - 32);
+    image(img3, 900 + Math.cos(timing*2*PI)*400 - 32, 900 + Math.sin(timing*2*PI)*400 - 32);
 
     //달
     var duration = 4500;
     var timing = (new Date()%duration)/duration;
-    image(img4, 900 + Math.cos(timing*2*PI)*350 + Math.cos(timing*4*PI)*80 - 8, 
-    900 + Math.sin(timing*2*PI)*350 + Math.sin(timing*4*PI)*80 - 8)
+    image(img4, 900 + Math.cos(timing*2*PI)*400 + Math.cos(timing*4*PI)*80 - 8, 
+    900 + Math.sin(timing*2*PI)*400 + Math.sin(timing*4*PI)*80 - 8)
 
     //목성
     var duration = 9000;
@@ -55,6 +55,6 @@ function draw()
     //천왕성
     var duration = 8500;
     var timing = (new Date()%duration)/duration;
-    image(img8, 900 + Math.cos(timing*2*PI)*800 - 54, 900 + Math.sin(timing*2*PI)*800 - 54);   
+    image(img9, 900 + Math.cos(timing*2*PI)*800 - 54, 900 + Math.sin(timing*2*PI)*800 - 54);   
 
 }
