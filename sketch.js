@@ -5,6 +5,7 @@ function setup()
     createCanvas(900,900);
     img = loadImage("1Mercury.png");  
     img2 = loadImage("2Venus.png");
+    img3 = loadImage("3earth.png");
 }
 
 function draw()
@@ -14,24 +15,21 @@ function draw()
     noStroke();
     ellipse(450,450,350,350);
 
-
+	// 수성
     var duration = 5000;
     var timing = (new Date()%duration)/duration;
-
-	// 수성
 	image(img, 450 + Math.cos(timing*2*PI)*200 - 17, 450 + Math.sin(timing*2*PI)*200 - 17);
 
-    var duration = 3000;
-    var timing = (new Date()%duration)/duration;
-
 	// 금성
+    var duration = 4000;
+    var timing = (new Date()%duration)/duration;
     image(img2, 450 + Math.cos(timing*2*PI)*250 - 27, 450 + Math.sin(timing*2*PI)*250 - 27);
 
     //지구
-	fill(0);
-    ellipse(450 + Math.cos(timing*2*PI)*350,                       
-    450 + Math.sin(timing*2*PI)*350,
-    100, 100);  
+    var duration = 4500;
+    var timing = (new Date()%duration)/duration;
+    image(img2, 450 + Math.cos(timing*2*PI)*350 - 32.5, 450 + Math.sin(timing*2*PI)*32.5);
+
 
     //달
 	fill(0);
