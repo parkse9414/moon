@@ -3,7 +3,7 @@ var img;
 function setup()
 {
     createCanvas(900,900);
-    img = loadImage("1수성.png");  // Load the image 
+    img = loadImage("1Mercury.png");  // Load the image 
 }
 
 function draw()
