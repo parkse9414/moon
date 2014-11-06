@@ -22,7 +22,7 @@ function draw()
 	// 수성
 	image(img, 450 + Math.cos(timing*2*PI)*200 - 17, 450 + Math.sin(timing*2*PI)*200 - 17);
 	// 금성
-    image(img, 450 + Math.cos(timing*2*PI)*250 - 54, 450 + Math.sin(timing*2*PI)*250 - 54);
+    image2(img2, 450 + Math.cos(timing*2*PI)*250 - 54, 450 + Math.sin(timing*2*PI)*250 - 54);
 
     //지구
 	fill(0);
