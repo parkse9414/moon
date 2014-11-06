@@ -9,6 +9,7 @@ function setup()
     img3 = loadImage("3earth.png");
     img4 = loadImage("4moon.png");
     img5 = loadImage("bg.png")
+    img6 = loadImage("sun.png")
 }
 
 function draw()
@@ -16,7 +17,7 @@ function draw()
 	background(img5);
     fill(237,112,50);
     noStroke();
-    ellipse(500,500,350,350);
+    image(img6, 500 - 256 ,500 - 256);
 
 	// 수성
     var duration = 5000;
