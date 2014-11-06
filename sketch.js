@@ -6,7 +6,7 @@ function setup()
     img = loadImage("1Mercury.png");  
     img2 = loadImage("2Venus.png");
     img3 = loadImage("3earth.png");
-    img4 = loadImage("4moon.png")
+    img4 = loadImage("4moon.png");
 }
 
 function draw()
@@ -34,8 +34,8 @@ function draw()
     //달
     var duration = 4500;
     var timing = (new Date()%duration)/duration;
-    image(img4, 450 + Math.cos(timing*2*PI)*350 + Math.cos(timing*4*PI)*80 - 15, 
-    450 + Math.sin(timing*2*PI)*350 + Math.sin(timing*4*PI)*80 - 15)
+    image(img4, 450 + Math.cos(timing*2*PI)*350 + Math.cos(timing*4*PI)*80 - 8, 
+    450 + Math.sin(timing*2*PI)*350 + Math.sin(timing*4*PI)*80 - 8)
 
 
 
