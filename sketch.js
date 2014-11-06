@@ -14,7 +14,7 @@ function draw()
     ellipse(450,450,350,350);
 
 	// Displays the image at its actual size at point (0,0)
-	image(img, 0, 0);
+	image(img, 450 + Math.cos(timing*2*PI)*200, 450 + Math.sin(timing*2*PI)*200);
 
     var duration = 5000;
     var timing = (new Date()%duration)/duration;
