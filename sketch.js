@@ -25,7 +25,7 @@ function draw()
 	image(img, 900 + Math.cos(timing*2*PI)*250 - 9, 900 + Math.sin(timing*2*PI)*250 - 9);
 
 	// 금성
-    var duration = 6000;
+    var duration = 7000;
     var timing = (new Date()%duration)/duration;
     image(img2, 900 + Math.cos(timing*2*PI)*300 - 27, 900 + Math.sin(timing*2*PI)*300 - 27);
 
@@ -41,7 +41,7 @@ function draw()
     900 + Math.sin(timing*2*PI)*350 + Math.sin(timing*4*PI)*80 - 8)
 
     //목성
-    var duration = 7000;
+    var duration = 9000;
     var timing = (new Date()%duration)/duration;
     image(img7, 900 + Math.cos(timing*2*PI)*650 - 138, 900 + Math.sin(timing*2*PI)*650 - 138);
 
