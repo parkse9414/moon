@@ -18,9 +18,12 @@ function draw()
     var duration = 5000;
     var timing = (new Date()%duration)/duration;
 
-
 	// 수성
 	image(img, 450 + Math.cos(timing*2*PI)*200 - 17, 450 + Math.sin(timing*2*PI)*200 - 17);
+
+    var duration = 3000;
+    var timing = (new Date()%duration)/duration;
+
 	// 금성
     image(img2, 450 + Math.cos(timing*2*PI)*250 - 27, 450 + Math.sin(timing*2*PI)*250 - 27);
 
