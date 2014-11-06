@@ -8,9 +8,9 @@ function setup()
     img2 = loadImage("2Venus.png");
     img3 = loadImage("3earth.png");
     img4 = loadImage("4moon.png");
-    img5 = loadImage("bg.png")
-    img6 = loadImage("sun.png")
-    img7 = loadImage("6Jupiter.png")
+    img5 = loadImage("bg.png");
+    img6 = loadImage("sun.png");
+    img7 = loadImage("6Jupiter.png");
 }
 
 function draw()
@@ -43,6 +43,6 @@ function draw()
     //목성
     var duration = 5000;
     var timing = (new Date()%duration)/duration;
-    image(img7, 900 + Math.cos(timing*2*PI)*350 - 138, 900 + Math.sin(timing*2*PI)*350 - 138);
+    image(img7, 900 + Math.cos(timing*2*PI)*400 - 138, 900 + Math.sin(timing*2*PI)*400 - 138);
 
 }
