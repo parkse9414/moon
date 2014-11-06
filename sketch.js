@@ -43,12 +43,12 @@ function draw()
     900 + Math.sin(timing*2*PI)*400 + Math.sin(timing*4*PI)*80 - 8)
 
     //목성
-    var duration = 9000;
+    var duration = 8000;
     var timing = (new Date()%duration)/duration;
     image(img7, 900 + Math.cos(timing*2*PI)*650 - 138, 900 + Math.sin(timing*2*PI)*650 - 138);
 
     //토성
-    var duration = 8000;
+    var duration = 10000;
     var timing = (new Date()%duration)/duration;
     image(img8, 900 + Math.cos(timing*2*PI)*800 - 264, 900 + Math.sin(timing*2*PI)*800 - 264);   
 
