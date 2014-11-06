@@ -43,6 +43,6 @@ function draw()
     //목성
     var duration = 5000;
     var timing = (new Date()%duration)/duration;
-    image(img7, 900 + Math.cos(timing*2*PI)*700 - 138, 900 + Math.sin(timing*2*PI)*700 - 138);
+    image(img7, 900 + Math.cos(timing*2*PI)*650 - 138, 900 + Math.sin(timing*2*PI)*650 - 138);
 
 }
