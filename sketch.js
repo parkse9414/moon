@@ -11,6 +11,7 @@ function setup()
     img5 = loadImage("bg.png");
     img6 = loadImage("sun.png");
     img7 = loadImage("6Jupiter.png");
+    img8 = loadImage("7Saturn.png");
 }
 
 function draw()
@@ -45,4 +46,8 @@ function draw()
     var timing = (new Date()%duration)/duration;
     image(img7, 900 + Math.cos(timing*2*PI)*650 - 138, 900 + Math.sin(timing*2*PI)*650 - 138);
 
+    //토성
+    var duration = 8000;
+    var timing = (new Date()%duration)/duration;
+    image(img8, 900 + Math.cos(timing*2*PI)*850 - 264, 900 + Math.sin(timing*2*PI)*850 - 264);   
 }
