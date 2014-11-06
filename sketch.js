@@ -3,7 +3,7 @@ var img5;
 
 function setup()
 {
-    createCanvas(1000,1000);
+    createCanvas(2000,2000);
     img = loadImage("1Mercury.png");  
     img2 = loadImage("2Venus.png");
     img3 = loadImage("3earth.png");
@@ -16,28 +16,28 @@ function draw()
 {
 	background(img5);
 
-    image(img6, 500 - 256 ,500 - 256);
+    image(img6, 1000 - 256 ,1000 - 256);
 
 	// 수성
     var duration = 5000;
     var timing = (new Date()%duration)/duration;
-	image(img, 500 + Math.cos(timing*2*PI)*230 - 9, 500 + Math.sin(timing*2*PI)*230 - 9);
+	image(img, 1000 + Math.cos(timing*2*PI)*230 - 9, 1000 + Math.sin(timing*2*PI)*230 - 9);
 
 	// 금성
     var duration = 4000;
     var timing = (new Date()%duration)/duration;
-    image(img2, 500 + Math.cos(timing*2*PI)*250 - 27, 500 + Math.sin(timing*2*PI)*250 - 27);
+    image(img2, 1000 + Math.cos(timing*2*PI)*250 - 27, 1000 + Math.sin(timing*2*PI)*250 - 27);
 
     //지구
     var duration = 4500;
     var timing = (new Date()%duration)/duration;
-    image(img3, 500 + Math.cos(timing*2*PI)*300 - 32, 500 + Math.sin(timing*2*PI)*300 - 32);
+    image(img3, 1000 + Math.cos(timing*2*PI)*300 - 32, 1000 + Math.sin(timing*2*PI)*300 - 32);
 
     //달
     var duration = 4500;
     var timing = (new Date()%duration)/duration;
-    image(img4, 500 + Math.cos(timing*2*PI)*300 + Math.cos(timing*4*PI)*80 - 8, 
-    500 + Math.sin(timing*2*PI)*300 + Math.sin(timing*4*PI)*80 - 8)
+    image(img4, 1000 + Math.cos(timing*2*PI)*300 + Math.cos(timing*4*PI)*80 - 8, 
+    1000 + Math.sin(timing*2*PI)*300 + Math.sin(timing*4*PI)*80 - 8)
 
 
 
