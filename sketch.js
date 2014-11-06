@@ -15,8 +15,7 @@ function setup()
 function draw()
 {
 	background(img5);
-    fill(237,112,50);
-    noStroke();
+
     image(img6, 500 - 256 ,500 - 256);
 
 	// 수성
