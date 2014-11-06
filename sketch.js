@@ -39,8 +39,8 @@ function draw()
     //달
     var duration = 4500;
     var timing = (new Date()%duration)/duration;
-    image(img4, 900 + Math.cos(timing*2*PI)*400 + Math.cos(timing*4*PI)*80 - 8, 
-    900 + Math.sin(timing*2*PI)*400 + Math.sin(timing*4*PI)*80 - 8)
+    image(img4, 900 + Math.cos(timing*2*PI)*400 + Math.cos(timing*4*PI)*50 - 8, 
+    900 + Math.sin(timing*2*PI)*400 + Math.sin(timing*4*PI)*50 - 8)
 
     //목성
     var duration = 8000;
