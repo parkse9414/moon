@@ -55,6 +55,6 @@ function draw()
     //천왕성
     var duration = 8500;
     var timing = (new Date()%duration)/duration;
-    image(img9, 900 + Math.cos(timing*2*PI)*800 - 54, 900 + Math.sin(timing*2*PI)*800 - 54);   
+    image(img9, 900 + Math.cos(timing*2*PI)*900 - 54, 900 + Math.sin(timing*2*PI)*900 - 54);   
 
 }
