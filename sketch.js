@@ -21,7 +21,7 @@ function draw()
 	// 수성
     var duration = 5000;
     var timing = (new Date()%duration)/duration;
-	image(img, 500 + Math.cos(timing*2*PI)*200 - 9, 500 + Math.sin(timing*2*PI)*200 - 9);
+	image(img, 500 + Math.cos(timing*2*PI)*230 - 9, 500 + Math.sin(timing*2*PI)*230 - 9);
 
 	// 금성
     var duration = 4000;
@@ -31,13 +31,13 @@ function draw()
     //지구
     var duration = 4500;
     var timing = (new Date()%duration)/duration;
-    image(img3, 500 + Math.cos(timing*2*PI)*350 - 32, 500 + Math.sin(timing*2*PI)*350 - 32);
+    image(img3, 500 + Math.cos(timing*2*PI)*300 - 32, 500 + Math.sin(timing*2*PI)*300 - 32);
 
     //달
     var duration = 4500;
     var timing = (new Date()%duration)/duration;
-    image(img4, 500 + Math.cos(timing*2*PI)*350 + Math.cos(timing*4*PI)*80 - 8, 
-    500 + Math.sin(timing*2*PI)*350 + Math.sin(timing*4*PI)*80 - 8)
+    image(img4, 500 + Math.cos(timing*2*PI)*300 + Math.cos(timing*4*PI)*80 - 8, 
+    500 + Math.sin(timing*2*PI)*300 + Math.sin(timing*4*PI)*80 - 8)
 
 
 
