@@ -1,5 +1,4 @@
 var img;  
-var img2;  
 
 function setup()
 {
