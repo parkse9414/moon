@@ -28,7 +28,7 @@ function draw()
     //지구
     var duration = 4500;
     var timing = (new Date()%duration)/duration;
-    image(img3, 450 + Math.cos(timing*2*PI)*350 - 32.5, 450 + Math.sin(timing*2*PI)*32.5);
+    image(img3, 450 + Math.cos(timing*2*PI)*350 - 32.5, 450 + Math.sin(timing*2*PI)*350 - 32.5);
 
 
     //달
