@@ -19,7 +19,7 @@ function draw()
 	// 수성
     var duration = 5000;
     var timing = (new Date()%duration)/duration;
-	image(img, 450 + Math.cos(timing*2*PI)*200 - 18, 450 + Math.sin(timing*2*PI)*200 - 18);
+	image(img, 450 + Math.cos(timing*2*PI)*200 - 9, 450 + Math.sin(timing*2*PI)*200 - 9);
 
 	// 금성
     var duration = 4000;
