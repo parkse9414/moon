@@ -19,7 +19,7 @@ function draw()
 
 
 	// Displays the image at its actual size at point (0,0)
-	image(img, 450 + Math.cos(timing*2*PI)*200 - 8.5, 450 + Math.sin(timing*2*PI)*200 - 8.5);
+	image(img, 450 + Math.cos(timing*2*PI)*200 - 17, 450 + Math.sin(timing*2*PI)*200 - 17);
 
     //지구
 	fill(0);
