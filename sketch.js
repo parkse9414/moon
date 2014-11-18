@@ -24,7 +24,7 @@ function draw()
 
 
     //지구
-    image(img3, mouseX, mouseY);
+    image(img3, mouseX - 32, mouseY - 32);
 
     //달
     var duration = 4500;
